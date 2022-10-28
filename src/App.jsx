@@ -17,7 +17,7 @@ function App() {
 
   const fetchData = (city='могилёв') => {
     fetch(
-      `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&lang=ru&units=metric`
+      `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&lang=ru&units=metric`
     )
       .then((res) => res.json())
       .then((data) => setWeatherData(data));
