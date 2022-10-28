@@ -1,0 +1,74 @@
+.current-day-card {
+  width: 30%;
+  height: 250px;
+  padding: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  border-radius: 20px;
+}
+
+.temperature {
+  width: 160px;
+  height: 117px;
+  left: 380px;
+  top: 135px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 117px;
+  color: #4793ff;
+}
+
+.today {
+  width: 174px;
+  height: 49px;
+  left: 380px;
+  top: 241px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #ffffff;
+}
+
+.time {
+  width: 164px;
+  height: 30px;
+  display: flex;
+  gap: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #939cb0;
+}
+
+.city {
+  width: 319px;
+  height: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #939cb0;
+}
+
+.current-day-card_top {
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
